@@ -14,9 +14,9 @@ public class HorseEatGrassGoal extends Goal {
 
     private static final int SEARCH_RADIUS = 10;
     private static final int SEARCH_HEIGHT = 3;
-    private static final int SEARCH_ATTEMPTS = 60;
-    private static final int START_CHANCE = 5;
-    private static final int EAT_TIME = 15;
+    private static final int SEARCH_ATTEMPTS = 40;
+    private static final int START_CHANCE = 1;
+    private static final int EAT_TIME = 1;
 
     private final AbstractHorse horse;
     private final Level level;
